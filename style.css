@@ -1,0 +1,71 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.nav-item .nav-link:hover {
+  color: #ffcc00 !important; 
+  transition: color 0.3s ease;
+}
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-section img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.hero-text {
+  z-index: 2;
+}
+/* Service Section Start */
+.card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      transition: 0.3s ease-in-out;
+   }
+
+   /* Service Section end */
+
+/* About Section Start */
+.about-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+.about-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+.extra-about {
+      padding: 60px 20px;
+      background-color: #f8f9fa;
+    }
+.extra-about h4 {
+      margin-bottom: 15px;
+    }
+.extra-about p {
+      font-size: 16px;
+      color: #555;
+    }
+  
+/* About Section End */
+
+
+
+
